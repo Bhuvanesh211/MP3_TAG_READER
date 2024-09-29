@@ -42,24 +42,4 @@ MP3 Tag Reader is a desktop-based software that reads and displays MP3 (ID3) tag
 - [ID3 Specification Website](https://id3.org)
 - [Project Document in PDF](https://www.emertxe.com/embedded-programming/embedded-c-projects/mp3-tag-reader.pdf)
 
-## How to Run
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd mp3-tag-reader`
-3. Compile the code: `make`
-4. Run the application: `./mp3_tag_reader <options> <file>`
-
-## Options
-
-- `-h` : Display help screen.
-- `-v` : Display the version of the ID3 tag.
-- `-m` : Display metadata information.
-- `-c` : Change tags.
-- `-i` : Display image details if embedded.
-- `-e` : Extract album art.
-- `-d` : Delete all tag data.
-- `-s` : Delete selected tag.
-
-## License
-
-This project is licensed under the MIT License.
